@@ -42,9 +42,9 @@ const generateAction = async (req, res) => {
     model: 'text-davinci-003',
     prompt: `${secondPrompt}`,
     // I set a higher temperature for this one. Up to you!
-    temperature: 0.85,
+    temperature: 0.8,
 		// I also increase max_tokens.
-    max_tokens: 1250,
+    max_tokens: 500,
   });
   
   // Get the output

@@ -41,16 +41,16 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>GhostUnchained</h1>
+            <h1>GhostUnchained (LinkedIn)</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Single best ghostwriter in this zipcode!</h2>
+            <h2>Best LinkedIn ghostwriter in your zipcode!</h2>
           </div>
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
           <textarea
-            placeholder="start typing here"
+            placeholder="start typing your topic here"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
