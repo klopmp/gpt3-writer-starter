@@ -41,7 +41,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>GhostUnchained (LinkedIn)</h1>
+            <h1>GhostUnchained</h1>
           </div>
           <div className="header-subtitle">
             <h2>Best LinkedIn ghostwriter in your zipcode!</h2>
